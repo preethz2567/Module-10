@@ -22,7 +22,24 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
+```
+q = []
+n = int(input("Enter number of elements: "))
+for i in range(n):
+    val = int(input(f"Enter element {i+1}: "))
+    q.append(val)
 
+if len(q) >= 2:
+    q.pop(0)
+    q.pop(0)
+elif len(q) == 1:
+    q.pop(0)
+
+q.sort(reverse=True)
+print("Remaining elements in descending order:", q)
+```
 ### Output:
+![image](https://github.com/user-attachments/assets/85eae175-0766-4f55-90ae-63d7afc74eda)
 
 ## Result:
+Therefore the given Python Program has been executed successfully and the output has been verified.
