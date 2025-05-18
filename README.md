@@ -47,7 +47,7 @@ print("Remaining elements in descending order:", q)
 ## Result:
 Therefore the given Python Program has been executed successfully and the output has been verified.
 
-#  EX NO-03 Queue-Remove Two String Values from the Rear End in Python 🧵
+#  EX NO-02 Queue-Remove Two String Values from the Rear End in Python 🧵
 
 This Python program demonstrates how to manage a list of strings and remove the last two elements (i.e., from the rear of the list).
 
